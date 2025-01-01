@@ -1,6 +1,6 @@
 package com.ceva.testing.ch01;
 
-public class CalculatorTest {
+public class CalculatorTst {
     private static int NB_ERRORS = 0;
 
     private void testAdd(){
@@ -14,7 +14,7 @@ public class CalculatorTest {
     }
 
     public static void main(String[] args) {
-        CalculatorTest calc = new CalculatorTest();
+        CalculatorTst calc = new CalculatorTst();
         try {
             calc.testAdd();
         }
