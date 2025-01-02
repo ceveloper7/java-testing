@@ -31,4 +31,11 @@ public class AssertAllTest {
                 () -> assertTrue(systemUnderTest.isVerified())
         );
     }
+
+    @Test
+    @DisplayName("SUT should have no current job")
+    void testNoJob(){
+        SUT systemUnderTest = new SUT("Our system under test");
+        assertNull(systemUnderTest.getCurrentJob(), ()-> "There should no be current job");
+    }
 }
