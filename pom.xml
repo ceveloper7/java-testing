@@ -40,6 +40,12 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
+
+                <!-- Excluyendo los test con etiqueta repository -->
+                <configuration>
+                    <groups>individual</groups>
+                    <excludedGroups>repository</excludedGroups>
+                </configuration>
             </plugin>
         </plugins>
     </build>
