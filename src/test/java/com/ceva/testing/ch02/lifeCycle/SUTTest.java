@@ -1,4 +1,4 @@
-package com.ceva.testing.ch02;
+package com.ceva.testing.ch02.lifeCycle;
 
 import com.ceva.testing.ch02.lifecycle.ResourceForAllTests;
 import com.ceva.testing.ch02.lifecycle.SUT;
