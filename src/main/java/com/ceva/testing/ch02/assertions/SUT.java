@@ -54,6 +54,6 @@ public class SUT {
             Thread.sleep(jobDuration);
             return;
         }
-        throw new NoJobException("No jobs on the execution list!");
+        throw new NoJobException("No jobs on the execution list");
     }
 }

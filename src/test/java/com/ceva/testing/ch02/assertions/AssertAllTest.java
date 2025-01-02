@@ -5,6 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * assertAll este metodo verificara todas las aserciones (afirmaciones), incluso de alguna de ellas falla
+ */
 public class AssertAllTest {
     @Test
     @DisplayName("SUT should default to not being under current verification")
